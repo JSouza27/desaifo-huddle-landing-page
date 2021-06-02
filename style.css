@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+
+  --soft-magenta: hsl(300, 69%, 71%);
+  
+  --weights-400: 400;
+
+  --weights-600: 600;
+
+  --open-sans: 'Open Sans', sans-serif;
+
+  --poppins: 'Poppins', sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--open-sans);
+  font-weight: var(--weights-400);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: var(--poppins);
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.title {
+  font-weight: var(--weights-600);
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.paragraph {
+  padding: 1.5rem 0;
+  font-weight: var(--weights-400);
+  font-size: 1em;
+}
+
+.btn-register {
+  font-size: 0.8em;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

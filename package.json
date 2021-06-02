@@ -1,0 +1,25 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "desafio-huddle-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSouza27/desaifo-huddle-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSouza27/desaifo-huddle-landing-page/issues"
+  },
+  "homepage": "https://github.com/JSouza27/desaifo-huddle-landing-page#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0"
+  },
+  "dependencies": {
+    "eslint-config-trybe-frontend": "^1.2.1"
+  }
+}
