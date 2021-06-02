@@ -25,6 +25,31 @@ body {
   font-weight: var(--weights-400);
 }
 
+.content {
+  background-color: var(--violet);
+  color: white;
+  height: 100vh;
+}
+
+.header-container {
+  background: url(./images/bg-mobile.svg) no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.logo {
+  width: 30vw;
+}
+
+.img-header-content {
+  display: flex;
+}
+
+.img-header{
+  width: 85vw;
+  margin: 0 auto;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -52,9 +77,10 @@ body {
 }
 
 .btn-register {
+  color: var(--violet);
   font-size: 0.8em;
-  width: 10rem;
-  height: 2rem;
+  width: 11rem;
+  height: 2.2rem;
   border: none;
   border-radius: 1rem;
 }
