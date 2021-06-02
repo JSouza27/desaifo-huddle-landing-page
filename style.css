@@ -28,17 +28,23 @@ body {
 .content {
   background-color: var(--violet);
   color: white;
-  height: 100vh;
+  background-size: cover;
+  height: 100%
 }
 
 .header-container {
-  background: url(./images/bg-mobile.svg) no-repeat;
+  background: url(./images/bg-mobile.svg);
   background-size: cover;
-  z-index: 1;
+}
+
+.img-header-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .logo {
-  width: 30vw;
+  width: 40%;
 }
 
 .img-header-content {
@@ -46,8 +52,8 @@ body {
 }
 
 .img-header{
-  width: 85vw;
-  margin: 0 auto;
+  width: 100%;
+  margin-top: 3.6rem;
 }
 
 .main {
@@ -61,7 +67,7 @@ body {
   text-align: center;
   font-family: var(--poppins);
   align-items: center;
-  margin: 1.5rem;
+  padding: 1.2rem 2rem;
 }
 
 .title {
@@ -71,18 +77,21 @@ body {
 }
 
 .paragraph {
-  padding: 1.5rem 0;
+  margin: 1.5rem 0;
   font-weight: var(--weights-400);
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 .btn-register {
   color: var(--violet);
   font-size: 0.8em;
-  width: 11rem;
-  height: 2.2rem;
+  width: 12rem;
+  height: 2.5rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 6px black;
 }
 
 .attribution {
